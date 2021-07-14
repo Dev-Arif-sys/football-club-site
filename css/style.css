@@ -259,8 +259,9 @@ footer {
     display: flex;
     width: 20%;
     align-items: center;
+    justify-content: center;
     margin: 0 auto;
-    justify-content: space-around;
+
 }
 
 .social__icon a{
@@ -281,12 +282,12 @@ footer {
     text-align: center;
     display: block;
    
-    padding: 2em;
+    padding: 0em;
   
 }
 
 .social__icon a+a {
-    margin-left: 1em; 
+    margin-left: 14px; 
    
 }
 
