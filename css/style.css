@@ -255,19 +255,39 @@ footer {
     width: 483.87px;
     height: 110px;
 }
+.social__icon{
+    display: flex;
+    width: 20%;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-around;
+}
 
 .social__icon a{
-    font-size: 24px;
+     display: block;
     text-decoration: none;
-    color: #1E4286; 
+    border-radius: 50%;
+    height: 32px;
+    width:32px ;
+    color:  #969BAB;
+    background-color: #E7E7E8;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 .secial__icon a i {
     font-size: 30px;
+    text-align: center;
+    display: block;
+   
+    padding: 2em;
+  
 }
 
 .social__icon a+a {
-    margin-left: 1em;
+    margin-left: 1em; 
+   
 }
 
 .social__icon a i:hover {
@@ -339,6 +359,9 @@ footer {
     .news {
         flex-wrap: wrap;
     }
+    .news__card{
+        margin-right: 0em;
+    }
 
     .partners__logo img {
         width: 50%;
@@ -353,9 +376,13 @@ footer {
    
         height: 63px;
     }
+    .social__icon{
+        width: 50%;
+    }
 
     .secial__icon a i {
         font-size: 17px;
+        
     }
 }
 
