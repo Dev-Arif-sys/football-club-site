@@ -258,7 +258,7 @@ footer {
 
 .social__icon a{
     font-size: 24px;
-   
+    text-decoration: none;
     color: #1E4286; 
 }
 
