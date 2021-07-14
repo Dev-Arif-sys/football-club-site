@@ -43,7 +43,6 @@ main{
 .container{
     width: 80%;
     margin: 0 auto;
-    margin-bottom: 100px;
 }
 
 
@@ -119,14 +118,15 @@ header{
  .players__container{
     width: 1050px;
     margin: 0 auto;
-    margin-bottom: 150px; 
+    margin-top: 70px;
+    margin-bottom: 165px; 
 }
 
 .players{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 70px;
+    
     
 }
  .player{
@@ -178,8 +178,11 @@ header{
 
 
 /* football news style */
+.news__container{
+    margin-top: 160px;
+}
 .news {
-   
+     
     display: flex;
     justify-content: space-around;
 }
@@ -223,6 +226,9 @@ header{
 /* --------------
 partners style 
 --------------*/
+.partners__container{
+    margin-top: 160px;
+}
 
 .partners {
     padding: 1em 0;
@@ -337,10 +343,13 @@ footer {
 
     .players__container {
        width: 90%;
+       margin-top:23px ;
+       margin-bottom:60px;
+      
     }
      
-    .players {
-        grid-template-columns: repeat(1,1fr);   
+    .player{
+        margin-top: 24px;
     }
     
     .highlights,.partners__logo {
@@ -357,21 +366,29 @@ footer {
     .highlights__title {
         font-size: 30px;
     }
-
+     
+    .news__container{
+        margin-top: 60px;
+    }
     .news {
         flex-wrap: wrap;
     }
     .news__card{
         margin-right: 0em;
     }
-
+    
+    .partners__container{
+        margin-top: 60px;
+    }
     .partners__logo img {
-        width: 50%;
+        width: 30%;
         margin: 0 auto;
         margin-top: 1em;
     }
     
-    
+    footer{
+     margin-top:45px ;
+    }
 
     .footer__logo img {
         width: 150px;
